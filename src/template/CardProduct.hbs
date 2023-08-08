@@ -1,0 +1,15 @@
+{{#each this}}
+  <li class='catalog-cards'>
+    <img src='{{img}}' alt='фото - {{title}}' class='catalog-cards-photo'/>
+    <div class='catalog-cards-text-button'>
+      <h3 class='catalog-cards-title'>{{title}}</h3>
+      <p class='catalog-cards-text'>
+        {{text}}
+      </p>
+      <p class='catalog-cards-price'><span class="qqq">{{price}}</span> грн/шт.</p>
+      <button type='button' class='catalog-cards-button'>
+        Заказать
+      </button>
+    </div>
+  </li>
+{{/each}}

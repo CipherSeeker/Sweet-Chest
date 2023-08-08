@@ -1,0 +1,23 @@
+{{#each this}}
+  <div class='swiper-slide'>
+    <div class='swiper-slide-block'>
+      <div class='swiper-slide-block-text'>
+        <p class='swiper-slide-title'>
+          {{title}}
+        </p>
+        <p class='swiper-slide-text'>
+          {{text}}
+        </p>
+      </div>
+      <div>
+        <img
+          src='{{img}}'
+          alt='Reviews - {{name}}'
+          class='swiper-slide-photo'
+        />
+        <p class='swiper-slide-name'>{{name}}</p>
+        <p class='swiper-slide-location'>{{location}}</p>
+      </div>
+    </div>
+  </div>
+{{/each}}

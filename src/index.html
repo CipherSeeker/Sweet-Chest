@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сладкий сундук</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Raleway:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <section class="header">
+        <div class="conteiner hero-conteiner">
+          <nav>
+            <a href="" class="logo">Сладкий сундук</a>
+          </nav>
+          <address>
+            <ul class="adress-list">
+              <li class="adress-item">
+                <svg class="icon-location" width="17" height="23">
+                  <use href="./img/symbol-defs.svg#icon-location"></use>
+                </svg>
+                <span class="adress-item-text"
+                  >г. Хмельницкий, ул. Куйбышева 31</span
+                >
+              </li>
+              <li class="phone-item">
+                <svg class="icon-phone" width="36" height="36">
+                  <use href="./img/symbol-defs.svg#icon-phone"></use>
+                </svg>
+                <p class="phone-item-text">
+                  <a href="tel:0638449549" class="phone-item-link"
+                    >8 (063) 844-95-49</a
+                  >
+                  <span class="phone-item-text-span"
+                    >Ежедневно с 9:00 до 20:00</span
+                  >
+                </p>
+              </li>
+            </ul>
+          </address>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="background">
+          <div class="conteiner">
+            <div class="hero-text">
+              <div class="hero-text-block">
+                <p class="hero-text-icon"><span>вкуснейшие</span></p>
+                <h1 class="hero-text-title">
+                  Пирожные и капкейки от 50 грн/шт. с доставкой по Киеву
+                </h1>
+                <p class="hero-text-p">
+                  Приготовим за 3 часа в день заказа. Доставка на авто в
+                  холодильнике.
+                </p>
+              </div>
+              <div class="hero-button">
+                <a href="#catalog"><button type="button" class="hero-block-button">
+                  Перейти в каталог
+                </button></a>
+                <p class="hero-block-button-text">9 различных видов на выбор</p>
+              </div>
+            </div>
+
+            <div>
+              <img
+                src="./img/berry-left.png"
+                alt="background-image berry-left"
+                class="berry-left"
+              />
+              <img
+                src="./img/leaf-left.png"
+                alt="background-image leaf-left"
+                class="leaf-left"
+              />
+              <img
+                src="./img/berry-right-top.png"
+                alt="background-image berry-right-top"
+                class="berry-right-top"
+              />
+              <img
+                src="./img/berry-right-bottom.png"
+                alt="background-image berry-right-bottom"
+                class="berry-right-bottom"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="catalog" id="catalog">
+        <div class="conteiner position">
+          <h2 class="catalog-title">Для любых событий и дорогих вам людей</h2>
+          <div>
+            <img
+              src="./img/catalog-berry-left.png"
+              alt="catalog-berry-left"
+              class="catalog-berry-left"
+            />
+            <img
+              src="./img/catalog-leaf-left.png"
+              alt="catalog-leaf-left"
+              class="catalog-leaf-left"
+            />
+            <img
+              src="./img/catalog-leaf-right.png"
+              alt="catalog-leaf-right"
+              class="catalog-leaf-right"
+            />
+          </div>
+          <ul class="catalog-list"></ul>
+        </div>
+      </section>
+      <section class="photoLoad">
+        <img
+          src="./img/01-1.png"
+          alt="background-image 01 1"
+          class="photo-top-img"
+        />
+        <img
+          src="./img/phone-1.png"
+          alt="background-image phone"
+          class="photoLoad-phone"
+        />
+        <div class="conteiner photoconteiner">
+          <div>
+            <img
+              src="./img/photoload-leaf.png"
+              alt="photoload-leaf"
+              class="photoload-leaf"
+            />
+            <img
+              src="./img/photoload-berry.png"
+              alt="photoload-berry"
+              class="photoload-berry"
+            />
+          </div>
+
+          <div class="photoLoad-block">
+            <p class="photoLoad-block-p">Не нашли то что нужно?</p>
+            <h2 class="photoLoad-block-title">
+              Приготовим заказ любой сложности по фото или эскизу
+            </h2>
+            <p class="photoLoad-block-text">
+              Загрузите фотографию или эскиз капкейков и мы рассчитаем стоимость
+              за 30 минут
+            </p>
+            <button type="files" class="photoLoad-block-button">
+              Загрузить фотографию
+            </button>
+          </div>
+        </div>
+        <img
+          src="./img/02-1.png"
+          alt="background-image 02 1"
+          class="photoLoad-bottom-img"
+        />
+      </section>
+      <section class="info">
+        <div class="conteiner info-conteiner">
+          <div class="info-block">
+            <p class="info-block-slogan">Кто будет готовить?</p>
+            <h2 class="info-block-title">
+              Лично приготовлю и всё красиво упакую для вашего события
+            </h2>
+            <ul class="info-block-list">
+              <li class="info-block-item">
+                Проконсультирую по выбору капкейкови придумаю нестандартную идею
+              </li>
+              <li class="info-block-item">
+                Приготовлю капкейки для вашего события, которые обязательно всем
+                понравятся
+              </li>
+              <li class="info-block-item">
+                Аккуратно и красиво всё упакую, если вы хотите сделать приятный
+                подарок
+              </li>
+            </ul>
+           <a href="#callback"> <button type="button" class="info-block-button">
+              Задать вопрос Юлии
+            </button></a>
+          </div>
+          <div class="block-info-women">
+            <img
+              src="./img/info-woman.png"
+              alt="info-woman"
+              class="info-woman"
+            />
+            <p class="info-women-name">Юлия Кондратьева</p>
+            <p class="info-women-slogan">ваш кондитер</p>
+            <img
+              src="./img/info-berry.png"
+              alt="info-berry"
+              class="info-berry"
+            />
+            <img
+              src="./img/info-leaf1.png"
+              alt="info-leaf1"
+              class="info-leaf1"
+            />
+            <img
+              src="./img/info-leaf2.png"
+              alt="info-leaf2"
+              class="info-leaf2"
+            />
+            <img
+              src="./img/info-leaf3.png"
+              alt="info-leaf3"
+              class="info-leaf3"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="reviews">
+        <img
+          src="./img/03-1.png"
+          alt="background-image 03 1"
+          class="photo-top-img"
+        />
+        <h2 class="reviews-title">Почитайте отзывы довольных клиентов</h2>
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper"></div>
+       
+        </div>
+
+        <img
+          src="./img/04-1.png"
+          alt="background-image 04 1"
+          class="photoLoad-bottom-img"
+        />
+      </section>
+      <section class="photoGallery">
+        <!-- <div class="conteiner"> -->
+        <h2 class="photoGallery-title">
+          Сделали более 3.000 заказов за 2 года
+        </h2>
+        <p class="photoGallery-text">
+          Посмотрите фото реальных заказов из нашего instagram
+        </p>
+        <div class="gallery">
+          <a href="./img/gallery/gallery-photo-max-1.jpg" class="gallery-a"
+            ><img
+              src="./img/gallery/gallery-photo-1.jpg"
+              alt="Нежный крем любого цвета на выбор, вафельная основа"
+              class="galleru-item"
+          /></a>
+          <a href="./img/gallery/gallery-photo-max-2.jpg" class="gallery-a"
+            ><img
+              src="./img/gallery/gallery-photo-2.jpg"
+              alt="Воздушный крем, темная основа и ягода малины"
+              class="galleru-item"
+          /></a>
+          <a href="./img/gallery/gallery-photo-max-3.jpg" class="gallery-a"
+            ><img
+              src="./img/gallery/gallery-photo-3.jpg"
+              alt="Разноцветные крем, с бисквитной основой"
+              class="galleru-item"
+          /></a>
+          <a href="./img/gallery/gallery-photo-max-4.jpg" class="gallery-a"
+            ><img
+              src="./img/gallery/gallery-photo-4.jpg"
+              alt="Ореховая стружка, нежный крем и шоколадная основа"
+              class="galleru-item"
+          /></a>
+          <a href="./img/gallery/gallery-photo-max-5.jpg" class="gallery-a"
+            ><img
+              src="./img/gallery/gallery-photo-5.jpg"
+              alt="Нежный крем любого цвета на выбор, вафельная основа"
+              class="galleru-item"
+          /></a>
+          <a href="./img/gallery/gallery-photo-max-6.jpg" class="gallery-a"
+            ><img
+              src="./img/gallery/gallery-photo-6.jpg"
+              alt="Украшения в форме сердец, для любимого человека"
+              class="galleru-item"
+          /></a>
+          <a href="./img/gallery/gallery-photo-max-7.jpg" class="gallery-a"
+            ><img
+              src="./img/gallery/gallery-photo-7.jpg"
+              alt="Разноцветная основа, стружка и нежный крем"
+              class="galleru-item"
+          /></a>
+          <a href="./img/gallery/gallery-photo-max-8.jpg" class="gallery-a"
+            ><img
+              src="./img/gallery/gallery-photo-8.jpg"
+              alt="Светлая основа, нежный крем со стружкой сверху"
+              class="galleru-item"
+          /></a>
+          <a href="./img/gallery/gallery-photo-max-9.jpg" class="gallery-a"
+            ><img
+              src="./img/gallery/gallery-photo-9.jpg"
+              alt="Тёмная основа, нежный крем и вкусные шарики"
+              class="galleru-item"
+          /></a>
+        </div>
+        <!-- </div> -->
+      </section>
+    </main>
+    <footer>
+      <section class="footer" id="callback">
+        <img
+          src="./img/05-1.png"
+          alt="background-image 05 1"
+          class="photo-top-img"
+        />
+        <div class="conteiner form">
+          <div class="form-fotter">
+            <h2 class="form-title">Чтобы сделать заказ, укажите ваш телефон</h2>
+            <p class="form-text">
+              Мы перезвоним в течении 15 минут, чтобы уточнить ваши пожелания
+            </p>
+            <form id="fotter-form" class="form-block">
+              <input
+                type="text"
+                class="form-input"
+                name="phone"
+                placeholder="Номер телефона"
+              />
+              <button type="submit" class="form-button">Сделать заказ</button>
+              <label class="form-policy">
+                <input type="checkbox" name="policy" required />
+                <span class="form-policy-text">
+                  Нажамая на кнопку, вы соглашаетесь с
+                  <a href="#" class="form-policy-link"
+                    >условиями обработки персональных данных</a
+                  >
+                </span>
+              </label>
+            </form>
+          </div>
+
+          <img
+            src="./img/footer-left-leaf.png"
+            alt="background-image footer-left-leaf"
+            class="footer-left-leaf"
+          />
+          <img
+            src="./img/footer-left-berry.png"
+            alt="background-image footer-left-berry"
+            class="footer-left-berry"
+          />
+
+          <img
+            src="./img/footer-right-berry.png"
+            alt="background-image footer-right-berry"
+            class="footer-right-berry"
+          />
+          <img
+            src="./img/footer-right-leaf.png"
+            alt="background-image footer-right-leaf"
+            class="footer-right-leaf"
+          />
+
+          <div class="fotter-nav">
+            <ul class="fotter-nav-list">
+              <li>
+                <a href="#" class="fotter-nav-item-link"
+                  >Согласие на обработку данных</a
+                >
+              </li>
+              <li>
+                <a href="#" class="fotter-nav-item-link">Служба поддержки</a>
+              </li>
+              <li>
+                <a href="#" class="fotter-nav-item-link"
+                  >Политика конфиденциальности</a
+                >
+              </li>
+              <li>© nazvaniesaita.ru, 2054 | Название компании</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <div class="bakdrop is-hidden">
+      <div class="basket">
+        <button type="button" class="button-close"></button>
+
+        <div class="basket-form">
+          <table>
+            <tr class="top-basket">
+              <th class="top-basket-title">Товар</th>
+              <th class="top-basket-title">Цена</th>
+              <th class="top-basket-title">Кол-во</th>
+              <th class="top-basket-title">Общая цена</th>
+              <th class="top-basket-title">Удалить</th>
+            </tr>
+            <tr class="top-basket">
+              <td>ячейка тела таблицы</td>
+              <td>ячейка тела таблицы</td>
+              <td>ячейка тела таблицы</td>
+              <td>ячейка тела таблицы</td>
+              <td>ячейка тела таблицы</td>
+            </tr>
+          </table>
+          <div class="basket-form-all"><p>Всего товаров: 17</p><p>Общая стоимость: 12312321</p></div>
+        </div>
+
+        <form id="form-basket" class="form-submit-basket">
+          <div class="form-submit-basket-input">
+            <input
+              type="text"
+              name="name"
+              placeholder="Введите имя"
+              class="basket-form-input"
+            />
+            <input
+              type="text"
+              name="phone"
+              placeholder="Введите телефон"
+              class="basket-form-input"
+            />
+          </div>
+          <div class="form-submit-basket-button">
+            <button type="button" class="basket-form-button">
+              Продолжить покупку
+            </button>
+            <button type="submit" class="basket-form-submit">
+              Сделать заказ
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
