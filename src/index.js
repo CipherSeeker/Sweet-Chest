@@ -29,7 +29,7 @@ const swiper = new Swiper('.swiper', {
   },
 });
 
-// При смене слайдов проверяем активный слайд и останавливаем автопрокрутку при определенном индексе слайда
+
 swiper.on('slideChange', function () {
   if (swiper.activeIndex === 1) {
        swiper.autoplay.stop(); 
