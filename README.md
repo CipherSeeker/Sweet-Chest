@@ -2,7 +2,7 @@
 
 Welcome to the repository for "Sweet Chest" - an enchanting landing-page project that exemplifies Full Stack Development expertise. This captivating platform serves as a virtual storefront for a bakery specializing in the sale of delectable cupcakes and pastries.
 
-![Website Screenshot](screenshot.png)
+![Website Screenshot](https://github.com/CipherSeeker/Sweet-Chest/blob/main/Hero.avif)
 
 ## Project Overview
 
